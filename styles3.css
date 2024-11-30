@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2;
+  padding: 3;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding: 1em;
+}
+
+#book-list, #cart-details {
+  margin-bottom: 2em;
+}
+
+.book {
+  border: 2px solid #ddd;
+  padding: 2em;
+  margin-bottom: 1em;
+}
+
+.add-to-cart {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #45a049;
+}
+
+#cart-details ul {
+  list-style: none;
+  padding: 0;
+}

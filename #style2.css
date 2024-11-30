@@ -1,0 +1,547 @@
+body{
+    margin: 10px;
+    font-family: "Roboto", sans-serif;
+}
+#head-cont{
+    padding: 10px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+    background-color: blue;
+    
+   
+}
+
+#name-cont{
+    float: left;
+
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+#nc{
+    color:orange;
+}
+
+
+#nav-cont{
+    float:center;
+}
+.clear{
+    clear: both;
+}
+
+#nav-cont ul{
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20%;
+}
+#nav-cont li{
+    float:left;
+    padding: 10px;
+}
+#nav-cont li:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+#nav-cont a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#nav-cont a:hover{
+    color: blue;
+
+}
+#find-cont{
+    float: right;
+    height: 35px;
+    width: 180px;
+    margin: 0px;
+    
+    background-color: orange;
+   
+   
+    text-transform: uppercase;
+    border-radius: 5px;
+   
+    
+   
+}
+#find-cont a{
+    text-decoration: none;
+    color: white;
+}
+#find-cont a:hover{
+    color: orange;
+}
+#find-cont:hover{
+   
+    background-color: white;
+}
+
+/*background image*/
+#img-head-container{
+    height: 500px;
+    background-image: url(../images/toyhouse.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#cp-cont{
+    
+    height: 40px;
+    width: 180px;
+    margin: 0px;
+    
+    background-color: orange;
+   
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#cp-cont p{
+    padding: 12px;
+ }
+
+ #text-box-container{
+    width: 400px;
+    height: 210px;
+    background-color: white;
+    position: absolute;
+    top: 175px;
+    left: 80px;
+    padding: 30px;
+    border-radius: 3px;
+ }
+
+ #location-container{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    color: blue;
+    
+ }
+
+ .icon-container{
+    padding: 0px;
+ }
+ .icon-container ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.icon-container ul li{
+    float: left;
+    margin-right: 15px;
+    color: grey;
+}
+.mi_size{
+    font-size: 15px;
+}
+.pcontent{
+    text-align: center;
+    margin: 10px 100px 10px 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+#service-container{    
+    margin:50px;
+}
+#service-container h2{
+    text-align: left;
+}
+#service-container div{
+    width: 30%;
+    float: left;
+    border: 20px solid white;
+
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow:1px 1px 1px 1px rgb(222, 222, 222);
+    
+}
+#service-container span{
+    float: left;
+    color: orange;
+}
+#value-holder{
+    height: 125px;
+    background-image: url(../images/white-house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:scroll;
+  
+}
+#value-num-holder ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+#value-num-holder li{
+    float:left;
+    padding: 10px;
+    padding-left: 200px;
+    padding-top: 40px;
+    font-size: 35px;
+    color: white;
+}
+#value-place-holder ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+#value-place-holder li{
+    float:left;
+    padding: 10px;
+    text-transform: uppercase;
+     padding-left: 110px; 
+     
+    /* padding-top: 40px; */
+    
+    color: white;
+}
+
+#second-page{
+    background-color: aliceblue;
+}
+
+
+#products_container{    
+    margin:50px;
+}
+#products_container h1{
+    text-align: center;
+}
+#products_container >div{
+    width: 30%;
+    float: left;
+    /* border: 20px solid white; */
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow:1px 1px 1px 1px rgb(222, 222, 222);
+    
+}
+#products_container div:hover{
+    background-color: aliceblue;
+    position: relative;
+    bottom: 10px;
+}
+
+#products_container div img{
+    width: 100%;
+}
+
+
+/*background image*/
+#img-foot-container{
+    height: 500px;
+    background-image: url(../images/white-house.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:scroll;
+    opacity: 0.1;
+}
+.client-holder{
+
+    float: left;
+   
+}
+.client-holder img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.client-holder span{
+   
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#img-foot-text{
+    position: relative;
+    bottom: 450px;
+    padding: 30px;
+}
+#img-foot-text > div{
+    width: 45%;
+    float: left;
+    text-align: justify;
+    padding: 29px;
+}
+.box-design{
+    height: 40px;
+    width: 130px;
+    margin: 0px;
+    padding: 0px;
+    background-color: orange;
+   
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+ }
+ .box-design p{
+    padding: 12px;
+ }
+#news-container{    
+    margin:50px;
+}
+#news-container div img{
+    width: 100%;
+}
+#news-container >div{
+    width: 30%;
+    float: left;
+    
+    
+    margin: 10px 10px 10px 10px;
+    
+    box-sizing: border-box;
+    box-shadow:1px 1px 1px 1px white;
+    
+}
+#news-text-container{
+    margin: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+   
+    
+    
+   
+}
+#news-text-container div{
+    float: left;
+    width: 33%;
+    padding: 10px;
+   
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    
+   margin: 30px 30px 30px 30px;
+    
+    box-sizing: border-box;
+    box-shadow:1px 1px 1px 1px white;
+    
+    
+    
+    
+}
+#updates-holder{
+    height: 125px;
+    background-image: url(../images/updates-bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:scroll;
+  
+}
+#updates-holder >div{
+    width: 50%;
+    float: left;
+   
+    text-align: center;
+    color: white; 
+}
+.starholder{
+    display: flex;
+
+}
+.starholder img{
+    width: 5%;
+}
+#client-container{
+    margin: 50px 50px 50px 125px;
+    padding: 10px;
+    border: 20px solid white;
+}
+#client-container >div{
+    width: 40%;
+    float: left;
+    flex: 50px;
+    margin: 50px 20px 50px 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 20px solid aliceblue;
+    
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow:1px 1px 1px 1px rgb(222, 222, 222);
+}
+#last-container{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    text-align: center;
+}
+#link-cont ul{
+    list-style-type: none;
+   
+}
+#link-cont li{
+    padding: 5px;
+    font-size: 15px;
+    
+}
+#link-cont li:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+#link-cont a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#link-cont a:hover{
+    color: black;
+
+}
+  /* #last-container  div {
+    
+    float: left;
+}  */
+
+#last-container img{
+    width: 70px;
+    height: 50px;
+    border-radius: 5%;
+} 
+
+.fc{
+    color: orange;
+}
+
+
+
+.btn-design{
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+ }
+ .emailc{
+    height: 30px;
+    width: 300px;
+    margin-top: 1px;
+    padding-left: 10px;
+    
+ }
+ 
+ .emailc li{
+   
+    padding: 10px;
+    text-transform: capitalize;
+    
+
+ }
+ #subscribe{
+    
+    height: 40px;
+    width: 180px;
+    margin: 0px 0px 0px 0px 0px;
+    
+    background-color: orange;
+   
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#subscribe p{
+    padding: 12px;
+ }
+ 
+ .upmail{
+    width: 40%;
+    
+ }
+ .upmail ul{
+    list-style-type: none;
+    /* padding: 20px; */
+   
+    
+ }
+ .upmail li{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+
+ }
+
+ .ts{
+    font-size: 25px;
+ }
+ #last-head-cont{
+    padding: 10px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+    background-color: blue;
+    
+   
+}
+
+#last-name-cont{
+    float: left;
+
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+#lnc{
+    color:orange;
+}
+
+
+#last-nav-cont{
+    float:center;
+}
+
+#last-nav-cont ul{
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20%;
+}
+#last-nav-cont li{
+    float:left;
+    padding: 10px;
+}
+#last-nav-cont li:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+#last-nav-cont a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#last-nav-cont a:hover{
+    color: rgb(255, 255, 255);
+
+}
+#last-find-cont{
+    float: right;
+    height: 35px;
+    width: 180px;
+    margin: 0px;
+    
+    background-color: orange;
+   
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+    

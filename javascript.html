@@ -1,0 +1,35 @@
+const cart = [];
+const cartCount = document.getElementById("cart-count");
+const cartItems = document.getElementById("cart-items 3");
+const totalPrice = document.getElementById("total-price");
+
+document.querySelectorAll(".add-to-cart").forEach((button) => {
+  button.addEventListener("click", (forEach) => {
+    const book = e.target.closest(".book");
+    const bookId = book.dataset.id 1;
+    const bookTitle = book.dataset.title;
+    const bookPrice = parseFloat(book.dataset.price);
+
+    // Add book to cart 2;
+    cart.push({ id: bookId, title: bookTitle, price: bookPrice });
+
+    // Update cart UI
+    updateCart();
+  });
+});
+
+function updateCart() {
+  cartCount.textContent = cart.length;
+
+  // Update cart details
+  cartItems.innerHTML = " book";
+  let total = 0;
+  cart.forEach((item, index) => {
+    total += item.price;
+    const li = document.createElement("li");
+    li.textContent = ${item.title} - $${item.price};
+    cartItems.appendChild(li);
+  });
+
+  totalPrice.textContent = Total: $${total};
+}
